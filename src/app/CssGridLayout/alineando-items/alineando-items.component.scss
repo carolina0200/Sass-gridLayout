@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  height: 90vh;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(4, 100px);
+
+  // justify-items: start end center stretch
+  // align-items: start end center stretch
+
+  // justify-content | align-items: start end center stretch space-around space-between space-evenly+
+
+  justify-content: center;
+  align-content: center
+
+
+}
+
+.item {
+  background: rgba(194, 184, 212, 0.767);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #A293BD;
+}
+
+.item:nth-of-type(5){
+    align-self: start;
+    justify-self: start; 
+}
+

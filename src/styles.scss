@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+// librerías, Settings y Variables
+
+// @import 'theme/lib/variables';
+// @import 'theme/lib/mixins';
+// @import 'theme/lib/funtions';
+
+// Componentes
+// @import 'theme/component/badge';
+// @import 'theme/component/button';
+// @import 'theme/component/cards';
+// @import 'theme/component/footer';
+// @import 'theme/component/tables';
+// @import 'theme/component/grids';
+
+// forms 
+// @import 'theme/forms/forms';
+// @import 'theme/forms/input';
+// @import 'theme/forms/search';
+
+// layout
+// @import 'theme/layout/container';
+// @import 'theme/layout/layout';
+
+// text
+// @import 'theme/text/titles';
+// @import 'theme/text/typography';
+
+
+// Siempre de ultimo
+// @import 'theme/component/util';
+
+body {
+    font-family:  'Lato', sans-serif;
+}
+
+
+

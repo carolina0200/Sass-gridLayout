@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template: 100px 1fr 150px / 1fr 5fr; // Sintaxis resumida de row y columns (filas / columnas)
+ // grid-gap: 10px;
+  height: 100vh;
+  grid-template-areas: "header header"
+    "left contenido"
+    "footer footer"
+}
+
+.item {
+  background: rgba(194, 184, 212, 0.767);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #A293BD;
+}
+
+.item:nth-of-type(4) {
+  background: rgb(178, 225, 231);
+  overflow: auto;
+  // display: subgrid;
+  //display: inline-grid;
+  display: grid;
+  grid-template: 50px 50px 50px / repeat(4, 25%);
+
+}
+
+.item .item {
+  background: rgb(195, 243, 199);
+}
+
+.header {
+  grid-area: header;
+}
+
+.left {
+  grid-area: left;
+
+}
+
+.contenido {
+  grid-area: contenido
+}
+
+.footer {
+  grid-area: footer;
+}
